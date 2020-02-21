@@ -1,5 +1,3 @@
-require_relative "../config/environment.rb"
-
 class MusicLibraryController
 
 def initialize(path = "./db/mp3s")
