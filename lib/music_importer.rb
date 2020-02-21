@@ -10,6 +10,6 @@ Dir.glob("#{path}/*").map { |file| file.gsub("#{path}/", '') }
   end
 
 def import
-files.each { |file| } Song.create_from_filename(file) }
+files.each { |file| } song.create_from_filename(file) }
   end
 end
